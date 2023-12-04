@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/stile/reset.css">
+    <link rel="stylesheet" href="Assets/stile/popup.css">
+    <link rel="stylesheet" href="Assets/stile/stile.css">
+    <script src="Assets/script/script.js"></script>
+    <title>PROVA VIDEO</title>
+</head>
+<body>
+    
+    <!-- ---------SEZIONE POPUP: LOGIN, CREA ACCOUNT, RIPETI PASSWORD, FILM/COVER--------->
+<div class="god-popup">
+
+    <div class="popup-container">
+        <section class="fatherbox-popup">
+            <section class="box-login">
+                <form action="" class="registration-box" name="login" autocomplete="off" method="post">
+                    <h3 class="login">Fai il tuo login</h3>
+                    <img src="Assets/img/Social/close.png" alt="" class="close-pop">
+                    <div class="email">
+                        <input type="email" name="email" class="email" required="required">
+                        <label for="email">Inserisci la tua mail</label>
+                    </div>
+                    <div class="password">
+                        <input type="password" class="password" name="password" required="required">
+                        <label for="password">Inserisci la tua password</label>
+                    </div>
+                    <button type="submit" class="submit">Login</button>
+                </form>
+                <div class="options">
+                    <div class="rec-password">Recupera password</div>
+                    <div class="create">Non sei ancora registrato? Crea un account</div>
+                </div>
+                </section>
+            </section>
+        </section>
+    </div> 
+
+    <div class="create-container">
+        <section class="box-crea-account">
+            <section class="childBox-crea">
+                <form action="" class="box-crea" name="crea-account" autocomplete="off">
+                    <h3 class="create">Crea Account</h3>
+                    <img src="Assets/img/Social/close.png" alt="" class="close-pop">
+                    <div class="email">
+                        <input type="email" class="email" required="required">
+                        <label for="email">Inserisci la tua mail</label>
+                    </div>
+                    <div class="password">
+                        <input type="password" class="password" required="required">
+                        <label for="password">Crea la tua password</label>
+                    </div>
+                    <div class="re-password">
+                        <input type="password" class="password-due" required="required">
+                        <label for="password">Ripeti password</label>
+                    </div>
+                    <div class="privacy">
+                        <h4>Seleziona per accettare i termini di privacy</h4>
+                        <input type="checkbox" class="checkbox" required="required">
+                    </div>
+                    <button class="create-btn">Crea account</button>
+                </form>
+                <h3 class="go-back">Torna al Login</h3>
+                </section>
+            </section>
+        </section>
+    </div>
+
+    <div class="recupera-pass">
+        <section class="box-recupera-pass">
+            <section class="box-recupera">
+                <form action="" class="box-rec-pass" name="rec-pass" autocomplete="off">
+                    <h3 class="recupera">Recupera password</h3>
+                    <h3 class="recupera-due">Inserisci nuovamente la tua mail e crea una nuova password</h3>
+                    <img src="Assets/img/Social/close.png" alt="" class="close-pop">
+                    <div class="email">
+                        <input type="email" class="email" required="required">
+                        <label for="email">Inserisci la tua mail</label>
+                    </div>
+                    <div class="password">
+                        <input type="password" class="password" required="required">
+                        <label for="password">Crea la tua password</label>
+                    </div>
+                    <div class="re-password">
+                        <input type="password" class="password-due" required="required">
+                        <label for="password">Ripeti password</label>
+                    </div>
+                    <button class="recupera-btn">Recupera </button>
+                </form>
+                <div class="go-back">
+                    <h3 class="go-backLog">Torna al login</h3>
+                </div>
+                </section>
+            </section>
+        </section>
+    </div>
+
+    <div class="form-contatti">
+        <section class="box-contatti">
+            <section class="box-contacts">
+                <form action="" class="box-cont" name="contacts" autocomplete="off">
+                    <h3 class="recupera">Contatti</h3>
+                    <img src="Assets/img/Social/close.png" alt="" class="close-pop">
+                    <div class="nome">
+                        <input type="text" class="text-nome" required="required">
+                        <label for="text">Inserisci il tuo nome</label>
+                    </div>
+                    <div class="cognome">
+                        <input type="text" class="text-cognome" required="required">
+                        <label for="text">Inserisci il tuo cognome</label>
+                    </div>
+                    <div class="email">
+                        <input type="email" class="email" required="required">
+                        <label for="email">Inserisci la tua email</label>
+                    </div>
+                    <div class="mex">
+                        <textarea name="text" class="mess" cols="30" rows="10" placeholder="Scrivici qui"></textarea>
+                    </div>
+                    <div class="privacy">
+                        <h4>Seleziona per accettare i termini di privacy</h4>
+                        <input type="checkbox" class="checkbox" required="required">
+                    </div>
+                    <button class="send-mex">Invia</button>
+                </form>
+                </section>
+            </section>
+        </section>
+    </div>
+
+    <div class="box-film-serieTV">
+        <img src="Assets/img/Social/close.png" alt="" class="close-pop-media">
+
+            <div class="box-tlou">
+                <div class="video">
+                    <video src="Assets/video/THE LAST OF US.mp4" controls></video>
+                </div>
+                <div class="trama-serie-tv">
+                    <span>TRAMA</span>
+                    <p>Nel 2013 un'epidemia generata dal fungo Cordyceps mutato si scatena negli Stati Uniti d'America, trasformando gli esseri umani in creature aggressive. Nei sobborghi di Austin Joel Miller sfugge al caos insieme a suo fratello Tommy e alla figlia tredicenne Sarah. Tuttavia, durante la fuga, Sarah viene colpita da un soldato e muore tra le braccia di Joel, che rimarrà inevitabilmente e profondamente segnato dall'accaduto.
+                    Vent'anni dopo, nel 2033, la civiltà è stata decimata dall'infezione. I sopravvissuti risiedono in zone di quarantena sotto stretta sorveglianza, in insediamenti indipendenti o in gruppi nomadi.
+                    </p>
+                </div>
+                <div class="box-episodi">
+                    <div class="episodi">
+                        <span>I TUOI EPISODI</span>
+                    </div>
+                    <div class="cover-img">
+                        <div class="episodio">
+                            <h1>1</h1>
+                            <img src="Assets/img/img-popup/theLastOfUs2.jpg" alt="">
+                            <div class="puntate">
+                                <h2>Primo episodio: In viaggio verso le Luci</h2>
+                                <h5>Joel, Ellie e Tess iniziano il loro viaggio verso il palazzo delle Luci sotto la richiesta di Marlene, leader delle Luci. Il virus si sta espandendo e i suoi effetti si stanno espandendo su tutta la Terra. Perche portare Ellie verso le Luci?</h5>
+                            </div>
+                        </div>
+                        <div class="episodio">
+                            <h1>2</h1>
+                            <img src="Assets/img/img-popup/theLastOfUs1.jpg" alt="">
+                            <div class="puntate">
+                                <h2>Secondo episodio: Senza Tess</h2>
+                                <h5>Inizia il viaggio di Joel ed Ellie, Tess è morta e il viaggio sarà lungo. Joel ancora fa fatica a fidarsi di Ellie e delle parole uscite fuori dalla ragazza in merito alla sua immunità al virus. Joel, nel mentre, si organizza per trovare suo fratello.</h5> 
+                            </div>
+                        </div>
+                        <div class="episodio">
+                            <h1>3</h1>
+                            <img src="Assets/img/img-popup/theLastOfUs3.jpg" alt="">
+                            <div class="puntate">
+                                <h2>Terzo episodio: Confidenze e senso paterno</h2>
+                                <h5>Ellie inizia ad essere una forte spalla per Joel, che a sua volta non è felice di alcune sue iniziative contro gli infetti. Le loro storie cominciano ad assomigliarsi e i loro racconti creano un forte legame tra loro.E' fondamentale trovare un riparo in questo momento, le Luci sono ormai vicine.</h5> 
+                            </div>
+                        </div>
+                        <div class="episodio">
+                            <h1>4</h1>
+                            <img src="Assets/img/img-popup/theLastOfUs4.jpg" alt="">
+                            <div class="puntate">
+                                <h2>Quarto episodio: Silenzio contro i Clicker</h2>
+                                <h5>Il silenzio è larma migliore contro gli infetti, sempre in aumento e di diverse tipologie. Joel ha incontrato suo fratello, lasciandosi alle spalle la decisione di Tommy nel non seguirlo in questo percorso verso le Luci. Ellie, è sempre più determinata a rimanere in vita insieme a Joel.</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-stranger">
+                <div class="video">
+                    <video src="Assets/video/Stranger Things.mp4" controls></video>
+                </div>
+                <div class="trama-serie-tv">
+                    <span>TRAMA</span>
+                    <p>6 novembre 1983, Hawkins, Indiana. In un laboratorio segreto uno sconosciuto scienziato scappa da una misteriosa creatura, finendo tragicamente la sua corsa in un ascensore. Poco dopo Will, un ragazzino di 12 anni, scompare nel nulla dopo essere tornato a casa da una partita di D&D coi suoi amici, Mike, Dustin e Lucas. Contemporaneamente una ragazzina coi capelli rasati scappa dal laboratorio, trovando riparo in un ristorante. Scappata dallo stesso si imbatte nei tre ragazzi, alla ricerca del loro amico scomparso. I tre decidono allora di nasconderla nella cantina della casa di Mike, con cui stringerà un legame particolare.
+                    </p>
+                </div>
+                <div class="episodi">
+                    <span>I TUOI EPISODI</span>
+                </div>
+                <div class="cover-img">
+                    <div class="episodio">
+                        <h1>1</h1>
+                        <img src="Assets/img/img-popup/stranger1.jpeg" alt="">
+                        <div class="puntate">
+                            <h2>Primo episodio: La scomparsa di Will Byers e la ragazza numero undici</h2>
+                            <h5>Undici (questo il nome della ragazzina, dal numero tatuato sul suo polso), è una ragazzina con dei poteri incredibili ed afferma di sapere dove trovare Will, dimostrandosi disposta a portare i ragazzi da lui.</h5>
+                        </div>
+                    </div>
+                    <div class="episodio">
+                        <h1>2</h1>
+                        <img src="Assets/img/img-popup/stranger2.jpg" alt="">
+                        <div class="puntate">
+                            <h2>Secondo episodio: C'è bisogno di unidici!</h2>
+                            <h5>Mike, Dustin, Lucas e Will hanno di fronte a sè i primi pericoli provocati dal sottosopra. Hanno bisogno di una mano di Undici, al momento rifugiata a casa di Jim, capo della polizia di Hawkins.</h5> 
+                        </div>
+                    </div>
+                    <div class="episodio">
+                        <h1>3</h1>
+                        <img src="Assets/img/img-popup/stranger3.jpg" alt="">
+                        <div class="puntate">
+                            <h2>Terzo episodio: Un piano per il sottosopra</h2>
+                            <h5>Steve si ritrova a lavorare in una gelateria dello Starcourt in coppia con Robin, una sua ex compagna. La compagnia di Dustin agita le acque a causa della sua parlantina frenetica. Riuscirà dustin ad escogitare un piano per accedere al sottosopra?
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="episodio">
+                        <h1>4</h1>
+                        <img src="Assets/img/img-popup/stranger4.jpg" alt="">
+                        <div class="puntate">
+                            <h2>Quarto episodio: Max e il sogno premonitore</h2>
+                            <h5>Molta gente lascia la città di Hawkins,intanto Max in coma ha una visione di lei essere travolta da una nube rossa.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="box-inter">
+                <div class="video">
+                    <video src="Assets/video/Interstellar.mp4" controls></video>
+                </div>
+                <div class="trama-box">
+                    <span class="trama">TRAMA</span>
+                </div>
+                <p>In un futuro prossimo venturo, il pianeta Terra sta diventando un ambiente inabitabile per l'uomo. Un gruppo di scienziati appartenenti un tempo alla NASA, sfruttando un "wormhole" per superare le limitazioni fisiche del viaggio spaziale e coprire le immense distanze del viaggio interstellare, organizza una serie di missioni spaziali alla ricerca di un pianeta abitabile. A tal scopo convince Cooper, un ex pilota di talento, a lasciare i propri figli per imbarcarsi in una missione che ha lo scopo di salvare l'umanità.
+                </p>
+            </div> 
+        
+            <div class="box-wolf">
+                <div class="video">
+                    <video src="Assets/video/THE WOLF OF WALL STREET.mp4" controls></video>
+                </div>
+                <div class="trama-box">
+                    <span class="trama">TRAMA</span>
+                </div>
+                <p>Manhattan, 1987: Jordan Belfort inizia la sua carriera come apprendista broker a Wall Street, sotto la guida dell'eccentrico Mark Hanna, che lo introduce a uno stile di vita sregolato, basato sul sesso e sull'assunzione di droghe di qualsiasi tipo. Jordan, che impara anche a compiere azioni disoneste che gli consentono di guadagnare molti soldi, ben presto ottiene la licenza di broker. Il giorno stesso della sua assunzione si verifica un improvviso crollo della borsa, il cosiddetto "lunedì nero", evento che causerà addirittura il fallimento della storica L.F. Rothschild. Pertanto la sua azienda è costretta a chiudere, lasciandolo disoccupato.
+                </p>
+            </div>
+
+            <div class="box-mile">
+                <div class="video">
+                    <video src="Assets/video/8 Mile.mp4" controls></video>
+                </div>
+                <div class="trama-box">
+                    <span class="trama">TRAMA</span>
+                </div>
+                <p>Detroit, 1995. Sulla 8 Mile Road, una strada malfamata della città che divide il quartiere bianco da quello nero, Jimmy Smith Jr. (Eminem), detto B-Rabbit, è uno dei pochi ragazzi bianchi che vivono nel quartiere nero che cerca di sfondare nel mondo dell'hip hop, ma deve fronteggiare problemi familiari, specialmente con la madre alcolizzata, il suo compagno Greg, la sua amata sorellina Lily e l'avviso di sfratto.
+                Jimmy viene iscritto ad una sfida freestyle che non riesce ad affrontare per la sua timidezza e per il suo imbarazzo di essere l'unico bianco a fronteggiare esclusivamente neri. Successivamente riuscirà a prendersi la sua rivincita allo Shelter, il locale dove si sfidavano alcuni aspiranti rapper, e a tirare fuori il suo talento battendo Papa Doc, il "capo" del Free World che spesso aveva colto l'occasione per umiliare lui e i suoi amici.
+                </p>
+            </div>
+    </div>
+</div>
+ 
+
+<img src="Assets/img/Social/up.png" class="button-up" alt="">
+
+<!-- ------------------FINE SEZIONE POPUP---------------------- -->
+
+
+
+
+
+<!-------------------------INIZIO PARTE MENU + TRAILER FULL SCREEN----------------------->
+
+
+    <header id="box-menu">
+        <div class="start-menu">
+            <div class="bar-menu">
+                <img src="Assets/img/logo-tipo2.png" alt="" class="logo-intero">
+                <ul class="menu">
+                    <li>
+                        <a href="#">Home</a>
+                        <a href="#inEvidenza">Catalogo</a>
+                        <a href="#" class="login">Login</a>
+                        <a href="#" class="contacts">Contatti</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+<div>
+    <div class="trailer">
+        <video src="Assets/video/JOKER - Teaser Trailer Italiano.mp4" muted autoplay loop></video>
+        <div class="trailDetails">
+            <h2 class="joker">Joker</h2>
+            <div class="buttons">
+                <button class="play">
+                    <img src="Assets/img/Social/volumeOff.png" class="off" alt="">
+                    <img src="Assets/img/Social/volumeOn.png" class="on" alt="">
+                </button>
+            </div>
+            <p>Diretto da Todd Philips, questo capolavoro di due 
+                Premi Oscar e due Golden Globe, racconta
+                la vita di Arthur, il clown che tutti conosciamo come Joker.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-------------------FINE PARTE MENU + TRAILER FULL SCREEN----------->
+
+
+
+<!--------------------INIZIO CORPO CENTRALE DELLA PAGINA---------->
+
+    <main id="central-page">
+
+
+
+
+
+                           <!--CONTENITORE SLIDER-->
+
+        <h2 id="inEvidenza" class="best">In evidenza</h2>
+        <section class="container-slider">
+            <div class="next">
+                <img src="Assets/img/Social/next.png" alt="">
+            </div>
+
+            <!-- PRIMO DIV SLIDER  -->
+            <div class="first-slider">
+                <div class="cover">
+                    <img src="Assets/img/Img slider/theLast.jpg" alt="" class="cover-img">
+                    <div class="descrizione">
+                        <span>THE LAST DANCE <br><br> MJ, Scott Pippen, Dennis Rodman e tutti i personaggi fondamentali
+                           dei Chicago Bulls raccontano in questa Docu-Serie, 
+                           le imprese folli ed impensabili dei tempi, ripercorrendo
+                           le tappe principali che hanno rivoluzionato il mondo del basket e dell'nba. 
+                        </span>
+                        <!-- per essere conforme devi invertire p con span -->
+                    </div>
+                </div>
+                <div class="cover">
+                    <img src="Assets/img/Img slider/TLOU.jpg" alt="" class="cover-img">
+                    <div class="descrizione">
+                        <span>THE LAST OF US <br><br>Ispirato da un videogioco considerato come uno dei più rivoluzionari della storia
+                           del gaming, questa serieTV racconta amore e odio, all'interno di un mondo
+                           colpito da un virus letale che ha ridotto ai minimi termini il genere umano introducendo
+                           veri e propri mostri. 
+                        </span>
+                    </div>
+                </div>
+                <div class="cover">
+                    <img src="Assets/img/Img slider/inter.jpg" alt="" class="cover-img">
+                    <div class="descrizione">
+                        <span>INTERSTELLAR <br><br>Le dimensioni dello spazio ancora sono ignote. Quante vite la fuori? Quanti pianeti?
+                           Uno strepitoso attore ci porta in viaggio verso lo spazio, alla ricerca di mondi
+                           abitabili per un genere umano che prende consapevolezza della vecchiaia della sua terra.  
+                        </span>
+                    </div>
+                </div>
+                <div class="cover">
+                    <img src="Assets/img/Img slider/theWolfOfWallStreet.jpg" alt="" class="cover-img">
+                    <div class="descrizione">
+                        <span>THE WOLF OF WALL STREET <br><br>Per chi volesse intraprendere una vita da commerciale e volesse farsi ispirare,
+                           Leonardo di Caprio ci viene in aiuto con una storia fatta di successi e di eccessi,
+                           con lo scopo di raccontarci che forse vendere e fare soldi, non è l'unica cosa che conta. 
+                        </span>
+                    </div>
+                </div>
+                <div class="cover">
+                    <img src="Assets/img/Img slider/breaking.jpeg" alt="" class="cover-img">
+                    <div class="descrizione">
+                        <span> 
+                            BREAKING BAD <br><br> Un professore di chimica, Walter White, 
+                            scopre di avere un cancro ai polmoni giudicato incurabile e
+                            decide di diventare socio di uno spacciatore di droga, Jesse, 
+                            nella produzione di anfetamine, di modo da garantire benessere 
+                            alla famiglia.
+                        </span>
+                    </div>
+                </div>
+                <div class="cover">
+                    <img src="Assets/img/Img slider/stranger.png" alt="" class="cover-img">
+                    <div class="descrizione">
+                        <span>STRANGER THINGS <br><br>
+                            Ideata dai Duffer Brothers, è una serie Tv
+                            ambientata nella città di Hawkins nei pieni anni ottanta. Tutto è strettamente connesso al Sottosopra, un'oscura dimensione parallela al nostro mondo popolata da creature mostruose.
+                        </span>
+                    </div>
+                </div>
+                <div class="cover">
+                    <img src="Assets/img/Img slider/8mile.jpg" alt="" class="cover-img">
+                    <div class="descrizione">
+                        <span>8MILE <br><br>8 Mile è un film del 2002 diretto da Curtis Hanson, con protagonista il celebre rapper Eminem.
+                        Il film è ispirato alla vera storia del cantante statunitense e alle difficoltà che ha dovuto affrontare prima di diventare un rapper di fama.  
+                        </span>
+                    </div>
+                </div>
+                <div class="cover">
+                    <img src="Assets/img/Img slider/formula1.jpg" alt="" class="cover-img">
+                    <div class="descrizione">
+                        <span>DRIVE TO SURVIVE <br><br>Formula 1: Drive to Survive è una serie televisiva documentaristica realizzata da Netflix in collaborazione con la Formula 1, che racconta retroscena e il dietro le quinte del Campionato mondiale di Formula 1 dal 2018 in poi. 
+                        </span>
+                    </div>
+                </div>
+            </div>
+                <!-- FINE PRIMO DIV SLIDER -->
+
+                <!-- inizio secondo Div Slider -->
+
+                <div class="second-slider">
+                    <div class="cover">
+                        <img src="Assets/img/Img slider/narcos.png" alt="" class="prossima">
+                        <div class="descrizione-due">
+                            <span>Narcos <br><br> Narcos è una serie TV statunitense-colombiana che racconta la storia vera della diffusione della cocaina tra Stati Uniti ed Europa negli anni ottanta in cui le autorità colombiane e della DEA si scontrano con il narcotrafficante Pablo Escobar e il cartello di Medellín.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cover">
+                        <img src="Assets/img/Img slider/dontLook.jpg" alt="" class="prossima">
+                        <div class="descrizione-due">
+                            <span>Narcos <br><br> Narcos è una serie TV statunitense-colombiana che racconta la storia vera della diffusione della cocaina tra Stati Uniti ed Europa negli anni ottanta in cui le autorità colombiane e della DEA si scontrano con il narcotrafficante Pablo Escobar e il cartello di Medellín.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cover">
+                        <img src="Assets/img/Img slider/witcher1.png" alt="" class="prossima">
+                        <div class="descrizione-due">
+                            <span>Narcos <br><br> Narcos è una serie TV statunitense-colombiana che racconta la storia vera della diffusione della cocaina tra Stati Uniti ed Europa negli anni ottanta in cui le autorità colombiane e della DEA si scontrano con il narcotrafficante Pablo Escobar e il cartello di Medellín.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cover">
+                        <img src="Assets/img/Img slider/vikings.jpg" alt="" class="prossima">
+                        <div class="descrizione-due">
+                            <span>Narcos <br><br> Narcos è una serie TV statunitense-colombiana che racconta la storia vera della diffusione della cocaina tra Stati Uniti ed Europa negli anni ottanta in cui le autorità colombiane e della DEA si scontrano con il narcotrafficante Pablo Escobar e il cartello di Medellín.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cover">
+                        <img src="Assets/img/Img slider/lupin.jpg" alt="" class="prossima">
+                        <div class="descrizione-due">
+                            <span>Narcos <br><br> Narcos è una serie TV statunitense-colombiana che racconta la storia vera della diffusione della cocaina tra Stati Uniti ed Europa negli anni ottanta in cui le autorità colombiane e della DEA si scontrano con il narcotrafficante Pablo Escobar e il cartello di Medellín.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cover">
+                        <img src="Assets/img/Img slider/squid1.jpg" alt="" class="prossima">
+                        <div class="descrizione-due">
+                            <span>Narcos <br><br> Narcos è una serie TV statunitense-colombiana che racconta la storia vera della diffusione della cocaina tra Stati Uniti ed Europa negli anni ottanta in cui le autorità colombiane e della DEA si scontrano con il narcotrafficante Pablo Escobar e il cartello di Medellín.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cover">
+                        <img src="Assets/img/Img slider/crown.jpg.png" alt="" class="prossima">
+                        <div class="descrizione-due">
+                            <span>Narcos <br><br> Narcos è una serie TV statunitense-colombiana che racconta la storia vera della diffusione della cocaina tra Stati Uniti ed Europa negli anni ottanta in cui le autorità colombiane e della DEA si scontrano con il narcotrafficante Pablo Escobar e il cartello di Medellín.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cover">
+                        <img src="Assets/img/Img slider/Regole.jpg" alt="" class="prossima">
+                        <div class="descrizione-due">
+                            <span>Narcos <br><br> Narcos è una serie TV statunitense-colombiana che racconta la storia vera della diffusione della cocaina tra Stati Uniti ed Europa negli anni ottanta in cui le autorità colombiane e della DEA si scontrano con il narcotrafficante Pablo Escobar e il cartello di Medellín.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- fine secondo divSlider -->
+
+            <div class="previous">
+                <img src="Assets/img/Social/previous.png" alt="">
+            </div>
+        </section>
+
+<!----------------------------FINE CONTENITORE SLIDER------------------------------->
+
+
+
+<!----------------------------INIZIO 1 CONTENITORE STILE-SLIDER---------->
+
+        <h2 id="prefe" class="best">I miei preferiti</h2>
+        <section class="container-slider">
+            
+
+                              <!-- PRIMO DIV SLIDER  -->
+            <div class="first-slider">
+                <div class="cover">
+                    <img src="Assets/img/Img slider/straightOuttaCompton.jpg" alt="" class="cover-img">
+                    <div class="descrizione">
+                        <span>THE LAST DANCE <br><br> MJ, Scott Pippen, Dennis Rodman e tutti i personaggi fondamentali
+                           dei Chicago Bulls raccontano in questa Docu-Serie, 
+                           le imprese folli ed impensabili dei tempi, ripercorrendo
+                           le tappe principali che hanno rivoluzionato il mondo del basket e dell'nba. 
+                        </span>
+                    </div>
+                </div>
+                <div class="cover">
+                    <img src="Assets/img/Img slider/AmericanSniper.jpg" alt="" class="tlou">
+                    <div class="descrizione">
+                        <span>THE LAST OF US <br><br>Ispirato da un videogioco considerato come uno dei più rivoluzionari della storia
+                           del gaming, questa serieTV racconta amore e odio, all'interno di un mondo
+                           colpito da un virus letale che ha ridotto ai minimi termini il genere umano introducendo
+                           veri e propri mostri. 
+                        </span>
+                    </div>
+                </div>
+                <div class="cover">
+                    <img src="Assets/img/Img slider/badBoysII.jpg" alt="" class="cover-img">
+                    <div class="descrizione" class="inter">
+                        <span>INTERSTELLAR <br><br>Le dimensioni dello spazio ancora sono ignote. Quante vite la fuori? Quanti pianeti?
+                           Uno strepitoso attore ci porta in viaggio verso lo spazio, alla ricerca di mondi
+                           abitabili per un genere umano che prende consapevolezza della vecchiaia della sua terra.  
+                        </span>
+                    </div>
+                </div>
+                <div class="cover">
+                    <img src="Assets/img/Img slider/baki.jpg" alt="" class="cover-img">
+                    <div class="descrizione" class="wolf">
+                        <span>THE WOLF OF WALL STREET <br><br>Per chi volesse intraprendere una vita da commerciale e volesse farsi ispirare,
+                           Leonardo di Caprio ci viene in aiuto con una storia fatta di successi e di eccessi,
+                           con lo scopo di raccontarci che forse vendere e fare soldi, non è l'unica cosa che conta. 
+                        </span>
+                    </div>
+                </div>
+                <div class="cover">
+                    <img src="Assets/img/Img slider/peaky.jpg" alt="" class="cover-img">
+                    <div class="descrizione">
+                        <span> 
+                            BREAKING BAD <br><br> Un professore di chimica, Walter White, 
+                            scopre di avere un cancro ai polmoni giudicato incurabile e
+                            decide di diventare socio di uno spacciatore di droga, Jesse, 
+                            nella produzione di anfetamine, di modo da garantire benessere 
+                            alla famiglia.
+                        </span>
+                    </div>
+                </div>
+                <div class="cover">
+                    <img src="Assets/img/Img slider/Southpaw.jpg" alt="" class="cover-img">
+                    <div class="descrizione" class="stranger">
+                        <span>STRANGER THINGS <br><br>
+                            Ideata dai Duffer Brothers, è una serie Tv
+                            ambientata nella città di Hawkins nei pieni anni ottanta. Tutto è strettamente connesso al Sottosopra, un'oscura dimensione parallela al nostro mondo popolata da creature mostruose.
+                        </span>
+                    </div>
+                </div>
+                <div class="cover">
+                    <img src="Assets/img/Img slider/fastandforious.jpg" alt="" class="cover-img">
+                    <div class="descrizione" class="mile">
+                        <span>8MILE <br><br>8 Mile è un film del 2002 diretto da Curtis Hanson, con protagonista il celebre rapper Eminem.
+                        Il film è ispirato alla vera storia del cantante statunitense e alle difficoltà che ha dovuto affrontare prima di diventare un rapper di fama.  
+                        </span>
+                    </div>
+                </div>
+                <div class="cover">
+                    <img src="Assets/img/Img slider/JohnWick.jpg" alt="" class="cover-img">
+                    <div class="descrizione">
+                        <span>DRIVE TO SURVIVE <br><br>Formula 1: Drive to Survive è una serie televisiva documentaristica realizzata da Netflix in collaborazione con la Formula 1, che racconta retroscena e il dietro le quinte del Campionato mondiale di Formula 1 dal 2018 in poi. 
+                        </span>
+                    </div>
+                </div>
+            </div>
+                <!-- FINE PRIMO DIV SLIDER -->
+
+            
+        </section>
+
+<!-----------------------FINE 1 CONTENITORE STILE-SLIDER------------------------------->
+
+
+
+<!----------------------------INIZIO 2 CONTENITORE STILE-SLIDER--------------------------->
+
+
+<h2 id="correlati" class="best">In base ai tuoi like</h2>
+<section class="container-slider">
+    
+
+    <div class="first-slider">
+        <div class="cover">
+            <img src="Assets/img/Img slider/riverdale.jpg" alt="" class="cover-img">
+            <div class="descrizione">
+                <span>THE LAST DANCE <br><br> MJ, Scott Pippen, Dennis Rodman e tutti i personaggi fondamentali
+                   dei Chicago Bulls raccontano in questa Docu-Serie, 
+                   le imprese folli ed impensabili dei tempi, ripercorrendo
+                   le tappe principali che hanno rivoluzionato il mondo del basket e dell'nba. 
+                </span>
+            </div>
+        </div>
+        <div class="cover">
+            <img src="Assets/img/Img slider/batman.jpg" alt="" class="tlou">
+            <div class="descrizione">
+                <span>THE LAST OF US <br><br>Ispirato da un videogioco considerato come uno dei più rivoluzionari della storia
+                   del gaming, questa serieTV racconta amore e odio, all'interno di un mondo
+                   colpito da un virus letale che ha ridotto ai minimi termini il genere umano introducendo
+                   veri e propri mostri. 
+                </span>
+            </div>
+        </div>
+        <div class="cover">
+            <img src="Assets/img/Img slider/cesaroni.jpeg" alt="" class="cover-img">
+            <div class="descrizione" class="inter">
+                <span>INTERSTELLAR <br><br>Le dimensioni dello spazio ancora sono ignote. Quante vite la fuori? Quanti pianeti?
+                   Uno strepitoso attore ci porta in viaggio verso lo spazio, alla ricerca di mondi
+                   abitabili per un genere umano che prende consapevolezza della vecchiaia della sua terra.  
+                </span>
+            </div>
+        </div>
+        <div class="cover">
+            <img src="Assets/img/Img slider/blow.jpg" alt="" class="cover-img">
+            <div class="descrizione" class="wolf">
+                <span>THE WOLF OF WALL STREET <br><br>Per chi volesse intraprendere una vita da commerciale e volesse farsi ispirare,
+                   Leonardo di Caprio ci viene in aiuto con una storia fatta di successi e di eccessi,
+                   con lo scopo di raccontarci che forse vendere e fare soldi, non è l'unica cosa che conta. 
+                </span>
+            </div>
+        </div>
+        <div class="cover">
+            <img src="Assets/img/Img slider/spiderman.jpg" alt="" class="cover-img">
+            <div class="descrizione">
+                <span> 
+                    BREAKING BAD <br><br> Un professore di chimica, Walter White, 
+                    scopre di avere un cancro ai polmoni giudicato incurabile e
+                    decide di diventare socio di uno spacciatore di droga, Jesse, 
+                    nella produzione di anfetamine, di modo da garantire benessere 
+                    alla famiglia.
+                </span>
+            </div>
+        </div>
+        <div class="cover">
+            <img src="Assets/img/Img slider/friends.jpg" alt="" class="cover-img">
+            <div class="descrizione" class="stranger">
+                <span>STRANGER THINGS <br><br>
+                    Ideata dai Duffer Brothers, è una serie Tv
+                    ambientata nella città di Hawkins nei pieni anni ottanta. Tutto è strettamente connesso al Sottosopra, un'oscura dimensione parallela al nostro mondo popolata da creature mostruose.
+                </span>
+            </div>
+        </div>
+        <div class="cover">
+            <img src="Assets/img/Img slider/deadpool.jpg" alt="" class="cover-img">
+            <div class="descrizione" class="mile">
+                <span>8MILE <br><br>8 Mile è un film del 2002 diretto da Curtis Hanson, con protagonista il celebre rapper Eminem.
+                Il film è ispirato alla vera storia del cantante statunitense e alle difficoltà che ha dovuto affrontare prima di diventare un rapper di fama.  
+                </span>
+            </div>
+        </div>
+        <div class="cover">
+            <img src="Assets/img/Img slider/Samurai.jpeg" alt="" class="cover-img">
+            <div class="descrizione">
+                <span>DRIVE TO SURVIVE <br><br>Formula 1: Drive to Survive è una serie televisiva documentaristica realizzata da Netflix in collaborazione con la Formula 1, che racconta retroscena e il dietro le quinte del Campionato mondiale di Formula 1 dal 2018 in poi. 
+                </span>
+            </div>
+        </div>
+    </div>
+<!-- ---------------------------------------SECONDA PARTE---------------------- -->
+
+    
+</section>
+
+
+<!-----------------------FINE 2 CONTENITORE STILE-SLIDER------------------------------->
+
+
+
+
+
+
+
+<!----------------------------INIZIO 3 CONTENITORE STILE-SLIDER--------------------------->
+
+<h2 id="game" class="best">I più popolari</h2>
+<section class="container-slider">
+    
+
+    <div class="first-slider">
+        <div class="cover">
+            <img src="Assets/img/Img slider/crown.jpg.png" alt="" class="cover-img">
+            <div class="descrizione">
+                <span>THE LAST DANCE <br><br> MJ, Scott Pippen, Dennis Rodman e tutti i personaggi fondamentali
+                   dei Chicago Bulls raccontano in questa Docu-Serie, 
+                   le imprese folli ed impensabili dei tempi, ripercorrendo
+                   le tappe principali che hanno rivoluzionato il mondo del basket e dell'nba. 
+                </span>
+            </div>
+        </div>
+        <div class="cover">
+            <img src="Assets/img/Img slider/Dance.jpg" alt="" class="tlou">
+            <div class="descrizione">
+                <span>THE LAST OF US <br><br>Ispirato da un videogioco considerato come uno dei più rivoluzionari della storia
+                   del gaming, questa serieTV racconta amore e odio, all'interno di un mondo
+                   colpito da un virus letale che ha ridotto ai minimi termini il genere umano introducendo
+                   veri e propri mostri. 
+                </span>
+            </div>
+        </div>
+        <div class="cover">
+            <img src="Assets/img/Img slider/harry.jpeg" alt="" class="cover-img">
+            <div class="descrizione" class="inter">
+                <span>INTERSTELLAR <br><br>Le dimensioni dello spazio ancora sono ignote. Quante vite la fuori? Quanti pianeti?
+                   Uno strepitoso attore ci porta in viaggio verso lo spazio, alla ricerca di mondi
+                   abitabili per un genere umano che prende consapevolezza della vecchiaia della sua terra.  
+                </span>
+            </div>
+        </div>
+        <div class="cover">
+            <img src="Assets/img/Img slider/JohnWick.jpg" alt="" class="cover-img">
+            <div class="descrizione" class="wolf">
+                <span>THE WOLF OF WALL STREET <br><br>Per chi volesse intraprendere una vita da commerciale e volesse farsi ispirare,
+                   Leonardo di Caprio ci viene in aiuto con una storia fatta di successi e di eccessi,
+                   con lo scopo di raccontarci che forse vendere e fare soldi, non è l'unica cosa che conta. 
+                </span>
+            </div>
+        </div>
+        <div class="cover">
+            <img src="Assets/img/Img slider/onepiece.jpg" alt="" class="cover-img">
+            <div class="descrizione">
+                <span> 
+                    BREAKING BAD <br><br> Un professore di chimica, Walter White, 
+                    scopre di avere un cancro ai polmoni giudicato incurabile e
+                    decide di diventare socio di uno spacciatore di droga, Jesse, 
+                    nella produzione di anfetamine, di modo da garantire benessere 
+                    alla famiglia.
+                </span>
+            </div>
+        </div>
+        <div class="cover">
+            <img src="Assets/img/Img slider/mcgregor.jpg" alt="" class="cover-img">
+            <div class="descrizione" class="stranger">
+                <span>STRANGER THINGS <br><br>
+                    Ideata dai Duffer Brothers, è una serie Tv
+                    ambientata nella città di Hawkins nei pieni anni ottanta. Tutto è strettamente connesso al Sottosopra, un'oscura dimensione parallela al nostro mondo popolata da creature mostruose.
+                </span>
+            </div>
+        </div>
+        <div class="cover">
+            <img src="Assets/img/Img slider/peaky.jpg" alt="" class="cover-img">
+            <div class="descrizione" class="mile">
+                <span>8MILE <br><br>8 Mile è un film del 2002 diretto da Curtis Hanson, con protagonista il celebre rapper Eminem.
+                Il film è ispirato alla vera storia del cantante statunitense e alle difficoltà che ha dovuto affrontare prima di diventare un rapper di fama.  
+                </span>
+            </div>
+        </div>
+        <div class="cover">
+            <img src="Assets/img/Img slider/witcher1.png" alt="" class="cover-img">
+            <div class="descrizione">
+                <span>DRIVE TO SURVIVE <br><br>Formula 1: Drive to Survive è una serie televisiva documentaristica realizzata da Netflix in collaborazione con la Formula 1, che racconta retroscena e il dietro le quinte del Campionato mondiale di Formula 1 dal 2018 in poi. 
+                </span>
+            </div>
+        </div>
+    </div>
+<!-- ---------------------------------------SECONDA PARTE---------------------- -->
+
+    
+</section>
+
+<!----------------------------FINE 3 CONTENITORE STILE-SLIDER--------------------------->
+
+
+    </main>
+
+<!------------------------------FINE PARTE CENTRALE SITO---------------------------------->
+
+
+
+
+
+<!------------------------------INIZIO PARTE FINALE SITO---------------------------------->
+
+<footer id="endpage">
+    <div class="endpage-content">
+        <span class="social">Rimani aggiornato attraverso i Social</span>
+        <div class="social-img">
+            <img src="Assets/img/Social/facebook.png" alt="">
+            <img src="Assets/img/Social/instagram.png" alt="">
+            <img src="Assets/img/Social/twitter.png" alt="">
+            <img src="Assets/img/Social/youtube.png" alt="">
+        </div>
+    </div>
+    <div class="finish">
+        <span class="finish">A cura di Alessandro Murtas</span>
+    </div>
+</footer>

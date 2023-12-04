@@ -1,0 +1,455 @@
+/* ---------------SEZIONE POPUP--------------------------- */
+
+
+/* prova a mettere un div che contiene section popup */
+
+div.popup-container,
+div.create-container,
+div.recupera-pass,
+div.form-contatti,
+div.box-film-serieTV{
+    background-color: #000000a4;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: none;
+
+    z-index: 999;
+}
+
+section.fatherbox-popup,
+section.box-crea-account,
+section.box-recupera-pass,
+section.box-contatti{
+    position: absolute;
+    left: 36%;
+    top: 15%;
+    min-width: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    transition: .8s;
+
+    z-index: 5;
+}
+
+section.box-login,
+section.childBox-crea,
+section.box-recupera,
+section.box-contacts{
+    border-radius: 12px;
+    min-width: 50vh;
+    min-height: 55vh;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    background-color: #181717be;
+}
+
+form.box-rec-pass{
+    margin-top: 25px;
+}
+
+img.close-pop{
+    width: 5%;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 6%;
+    right: -2%;
+}
+
+form.box-crea img{
+    position: absolute;
+    top: -3%;
+}
+
+form.box-cont img{
+    position: absolute;
+    top: -12%;
+}
+
+h3.login,
+h3.create{
+    cursor: default;
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+h3.recupera,
+h3.recupera-due{
+    cursor: default;
+    color: #fff;
+}
+
+div.go-back{
+    text-align: left;
+}
+
+h3.go-backLog{
+    width: 33%;
+    cursor: default;
+    color: #fff;
+    margin-left: 10px;
+    transition: .4s;
+}
+
+h3.go-backLog{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3.recupera{
+    font-size: 1.5em;
+    margin-bottom: 8px;
+}
+
+h3.recupera-due{
+    font-style: italic;
+    font-size: 0.9em;
+    color: #ffffffde;
+    margin-bottom: 20px;
+}
+
+h3.create{
+    margin-top: 20px;
+}
+
+h3.go-back{
+    display: block;
+    width: 30%;
+    margin-top: 20px;
+    color: #fff;
+    cursor: default;
+    transition: .4s;
+}
+
+h3.go-back:hover{
+    color: #e53509;
+    transform: translate(-10%);
+}
+
+h3.go-backLog:hover{
+    color: #e53509;
+    transform: translate(-10%);
+}
+
+div.privacy{
+   margin-top: 30px;
+}
+
+textarea.mess{
+    border-radius: 10px;
+    width: 80%;
+    resize: none;
+}
+
+form.registration-box,
+div.box-crea{
+    margin-top: 35px;
+}
+
+button.submit,
+button.create-btn,
+button.recupera-btn,
+button.send-mex{
+    margin-top: 15px;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+button.create-btn{
+    margin-top: 10px;
+}
+
+button.recupera-btn{
+    margin-top: 0;
+    width: 40%;
+}
+
+button.submit:hover,
+button.create-btn:hover,
+button.recupera-btn:hover,
+button.send-mex:hover{
+    background-color: #e53509;
+    color: #dddddd;
+    transition: .5s;
+    cursor: pointer;
+}
+
+div.options{
+    text-align: left;
+    margin-top: 8%;
+}
+
+div.options div{
+    margin-top: 3%;
+    color: #fff;
+    cursor: default;
+    font-size: 1.3em;
+}
+
+div.options div:hover{
+    color: #e53509;
+    transition: .3s;
+}
+
+label{
+    display: block;
+    position: absolute;
+    font-size: 15px;
+    margin-top: -58px;
+    padding-left: 18px;
+    margin-left: 10px;
+    pointer-events: none;
+    cursor: default;
+    transition: .4s;
+}
+
+div.privacy h4{
+    color: #fff;
+}
+
+input{
+    width: 95%;
+    height: 42px;
+    margin: 10px 1px 28px 1px;
+    padding: 9px;
+    font-size: 18px;
+    color:#e53509;
+    border-radius: 5px;
+}
+
+input.checkbox{
+    width: 30px;
+}
+
+input:focus~label,
+input:valid~label{
+    margin-top: -95px;
+    padding-left: 2px;
+    color: #ffffff;
+}
+
+
+/*----------------------------SEZIONE POPUP FILM E SERIE TV--------------------------------- */
+
+div.box-film-serieTV img.close-pop-media{
+    position: absolute;
+    width: 2%;
+    top: 2.3%;
+    right: 20%;
+    border-radius: 50%;
+    background-color: #fff;
+
+    z-index: 9999;
+}
+
+div.box-film-serieTV img.close-pop-media:hover{
+    background-color:#e53509;
+}
+
+div.box-tlou div.video,
+div.box-stranger div.video,
+div.box-inter div.video,
+div.box-wolf div.video,
+div.box-mile div.video{
+    width: 100%;
+    display: block;
+}
+
+div.video video{
+    display: block;
+    /* position: absolute;
+    top: 0; */
+    width: 100%;
+}
+
+/* ----------------------------------per serie tv----------------------------------------------- */
+div.box-tlou,
+div.box-stranger{
+    border-radius: 15px;
+    background-color: #000000ef;
+    width: 60%;
+    height: 100vh;
+    overflow-y: scroll;
+    margin-top: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+    z-index: 999;
+}
+
+div.trama-serie-tv,
+div.trama-box,
+div.box-episodi{
+    width: 100%;
+}
+
+div.trama-serie-tv span,
+span.trama{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+div.trama-serie-tv p{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: #ffffffd3;
+}
+
+div.box-tlou p,
+div.box-stranger p{
+    position: absolute;
+    top: 70%;
+}
+
+div.box-tlou::-webkit-scrollbar,
+div.box-stranger::-webkit-scrollbar{
+    width: 1px;
+    color: rgba(255, 0, 0, 0);
+}
+
+div.episodi{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50em;
+}
+
+div.episodi span,
+div.puntate h2,
+div.episodio h1{
+    font-size: 1.2em;
+    color: #fff;
+}
+
+div.episodio{
+    display: flex;
+    text-align: center;
+}
+
+div.episodio h1,
+div.episodio h2,
+div.episodio h5{
+    color: #fff;
+}
+
+div.episodio h1{
+    margin-top: 45px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+div.puntate h5{
+    font-style: italic;
+    color: #ffffffd3;
+}
+
+div.episodio h2,
+div.episodio h5{
+    text-align: left;
+    margin-top: 20px;
+    margin-right: 16px;
+    margin-left: 18px;
+}
+
+div.cover-img{
+    width: 100%;
+    position: absolute;
+    top: 53em;
+}
+
+div.cover-img div.episodio img{
+    margin-bottom: 40px;
+    display: block;
+    width: 20%;
+    border-radius: 5px;
+}
+
+/*-----------------------------fine classi serie tv--------------------------- */
+
+/* per film */
+div.box-mile,
+div.box-wolf,
+div.box-inter{
+    border-radius: 15px;
+    background-color: #000000ef;
+    position: fixed;
+    width: 60%;
+    height: 95vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+    z-index: 999;
+}
+
+div.box-mile p,
+div.box-wolf p,
+div.box-inter p{
+    position: absolute;
+    top: 75%;
+    padding: 20px;
+    color: #ffffffd3;
+}
+
+
+
+/* -----------FINE SEZIONE POPUP------------------------ */
+
+
+/* MEDIA QUERY PER POPUP BAR MENU  */
+
+
+@media all and (min-height: 923px){
+
+    form.box-cont img.close-pop{
+        position: absolute;
+        width: 5%;
+        top: -5%;
+        right: -2;
+        border-radius: 50%;
+        background-color: #fff;
+    
+        z-index: 9999;
+    }
+}
+
+@media all and (min-height: 850px){
+
+    form.box-cont img.close-pop{
+        position: absolute;
+        width: 5%;
+        top: -9%;
+        right: -2;
+        border-radius: 50%;
+        background-color: #fff;
+    
+        z-index: 9999;
+    }
+}

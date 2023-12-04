@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Asap Condensed', sans-serif;
+    background-color: #000;
+    overflow-x: hidden;
+    max-width: 1920px;
+    position: relative;
+}
+
+header#box-menu{
+    width: 100%; 
+    height: 100px;
+    position: fixed;
+    transition: 0.5s;
+
+    z-index: 5;
+}
+
+.change-backgroundColor{
+    width: 100%; 
+    position: fixed;
+    background-color: #000000e3;
+    transition: 0.5s;
+
+    z-index: 5;
+}
+
+div.start-menu{
+    width: 100%;
+    position: fixed;
+
+    z-index: 5;
+}
+
+img.logo-intero{
+    margin: 10px;
+    width: 13%;
+}
+
+.bar-menu{
+    display: flex;
+}
+
+ul{
+    margin-top: 45px;
+}
+
+ul.menu{
+    display: flex;
+    position: relative;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 auto;
+    margin-left: 25px;
+}
+
+div.trailer{
+    width: 100%;
+    height: 100%;
+}
+
+div.trailer video{
+    width: 100%;
+    height: 53vw;
+    object-fit: cover;
+}
+
+div.trailDetails{
+    position: absolute;
+    top: 15%;
+    left: 150px;
+    width: 300px;
+}
+
+h2.joker{
+    font-size: 3em;
+    color: #fff;
+}
+
+div.buttons{
+    width: 30%;
+}
+
+button.play{
+    margin-top: 30px;
+    border: none;
+    border-radius: 3px;
+    width: 100px;
+}
+
+button.play:hover{
+    background-color: #fefee9;
+}
+
+
+button img.off{
+    width: 30%;
+    margin: 2px auto;
+}
+
+button img.on{
+    width: 30%;
+    margin: 2px auto;
+}
+
+img.on{
+    display: none;
+}
+
+p{
+    color: #ffffffad;
+    margin-top: 20px;
+}
+
+/* ------------------SEZIONE MAIN + PARTE SLIDER-------------------- */
+
+
+
+main#central-page{
+    width: 97%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+h2.best{
+    font-size: 1.5em;
+    color: #fff;
+    margin-bottom: 0.5em;
+    margin-top: 2em;
+}
+
+img.button-up{
+    width: 3%;
+    position: fixed;
+    z-index: 999;
+    top: 93%;
+    left: 96%;
+    cursor: pointer;
+    opacity: 0;
+
+    transition: .5s;
+}
+
+section.container-slider{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+section.container-slider div.first-slider,
+section.container-slider div.second-slider{
+    display: flex;
+    gap: 10px;
+    height: 15.5em;
+}
+
+section.container-slider div.second-slider{
+    position: absolute;
+    transform: translateX(120%);
+
+    z-index: 2;
+}
+
+section.container-slider div.first-slider div.cover,
+section.container-slider div.second-slider div.cover{
+    width: 100%;
+    position: relative;
+}
+
+section.container-slider div.first-slider div.cover img,
+section.container-slider div.second-slider div.cover img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+div.next,
+div.previous{
+    position: absolute;
+    z-index: 2;
+    height: 50px;
+    line-height: 150px;
+    width: 40px;
+    opacity: 0;
+    border-radius: 40%;
+}
+
+div.next{
+    position: absolute;
+    right: -25px;
+}
+
+div.previous{
+    position: absolute;
+    left: -25px;
+    opacity : 0;
+    transition: 7s;
+}
+
+div.next img,
+div.previous img{
+    position: absolute;
+    z-index: 1;
+
+    transform: translateY(-205%);
+    cursor: pointer;
+    width: 3em;
+}
+
+div.next img{
+    right: -5px;
+    top: 100px;
+}
+
+div.previous img{
+    left: -5px;
+    top: 100px;
+}
+
+.slitta-Sx{
+    transform: translateX(-155%);
+    transition: transform 2.3s ease-in-out;
+}
+
+.alCentro{
+    transform: translateX(0) !important;
+    transition: transform 2s ease-in-out;
+}
+
+.slitta-Dx{
+    transform: translateX(150%);
+    transition: transform 2s ease-in-out;
+}
+
+div.cover div.descrizione,
+div.cover div.descrizione-due{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transition: 1s;
+}
+
+div.descrizione span,
+div.descrizione-due span{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    line-height: 20px;
+    font-size: 0.8em;
+
+    padding: 11px;
+}
+
+/* ------------------------FINE SEZIONE MAIN E SLIDER------------------------- */
+
+/* ------------------------INIZIO FOOTER------------------------------- */
+
+
+footer#endpage{
+    width: 100%;
+    height: 200px;
+}
+
+div.endpage-content span.social{
+    display: block;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+div.endpage-content span.social{
+    margin-bottom: 20px;
+}
+
+div.social-img{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+
+div.social-img img{
+    width: 2%;
+}
+
+div.finish{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+}
+
+div.finish span.finish{
+    display: block;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+
+
+/* -------------------------FINE FOOTER--------------------------------- */
